@@ -7,15 +7,11 @@
 
 ## About Me
 
-CS student at **FAST-NUCES, Lahore** (BSCS — Class of 2028)  
-Building real projects while mastering core CS fundamentals  
-Currently diving deep into **OS, Databases, AI & Software Design**  
-I focus on:
-- Designing **functional, well-architected systems**
-- Programming at **every level** — from Assembly to Python
-- Turning coursework into **real, working projects**
+CS student at **FAST-NUCES, Lahore** (BSCS — Class of 2028).
 
-Open to **internships, collaborations, and open-source contributions**
+Honestly, this field wasn't my first choice — but somewhere between debugging Assembly and building data pipelines, that changed. Now I'm genuinely invested in where this goes. I take my career seriously: I've managed team projects end-to-end, handled the planning, the coordination, the hard calls, and made sure things shipped. I stay level-headed under pressure — when things break or deadlines close in, I don't panic, I problem-solve. I believe good **leadership** isn't about delegating — it's about owning the outcome. I'm not just here to pass courses — I'm building toward a career in systems, AI, or backend engineering with real intent.
+
+Open to internships, collaborations, and open-source work.
 
 ---
 
@@ -25,6 +21,7 @@ Open to **internships, collaborations, and open-source contributions**
 ![C](https://img.shields.io/badge/C-0f2027?style=for-the-badge&logo=c)
 ![C++](https://img.shields.io/badge/C++-0f2027?style=for-the-badge&logo=cplusplus)
 ![Python](https://img.shields.io/badge/Python-0f2027?style=for-the-badge&logo=python)
+![Kotlin](https://img.shields.io/badge/Kotlin-0f2027?style=for-the-badge&logo=kotlin)
 ![Assembly](https://img.shields.io/badge/Assembly_8086-0f2027?style=for-the-badge&logo=assemblyscript)
 ![SQL](https://img.shields.io/badge/SQL-0f2027?style=for-the-badge&logo=mysql)
 ![HTML](https://img.shields.io/badge/HTML-0f2027?style=for-the-badge&logo=html5)
@@ -33,25 +30,46 @@ Open to **internships, collaborations, and open-source contributions**
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-0f2027?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-0f2027?style=for-the-badge&logo=github)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-0f2027?style=for-the-badge&logo=apachekafka)
+![Android](https://img.shields.io/badge/Android-0f2027?style=for-the-badge&logo=android)
 ![NASM](https://img.shields.io/badge/NASM-0f2027?style=for-the-badge&logo=assemblyscript)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0f2027?style=for-the-badge&logo=jupyter)
 ![Figma](https://img.shields.io/badge/Figma-0f2027?style=for-the-badge&logo=figma)
 
-### CS Concepts
+---
+
+## CS Focus Areas
+
 - Data Structures & Algorithms
-- Object-Oriented Programming
-- Operating Systems & IPC
-- Database Design & SQL
-- AI 
+- Operating Systems, Concurrency & IPC
+- Database Design & Query Optimization
+- Artificial Intelligence & Search Algorithms
+- Object-Oriented Programming & SOLID Principles
+- Software Design & Architecture Patterns
 - Functional & Plugin-based Architecture
-- SOLID Principles
+- Event-Driven & Distributed Systems
 
 ---
 
 ## Featured Projects
 
+### WeatherFlow — Real-Time Weather Pipeline
+> *Team Project*
+
+Building a **distributed weather data pipeline** using **Apache Kafka** (KRaft mode)  
+Implements **HMAC-SHA256 packet authentication** with dead letter topic routing  
+Five-topic Kafka architecture: raw → verified → clean, with auth-failed and filter-rejected dead letters  
+**Exponential backoff retry** on OpenWeatherMap API calls  
+Kotlin backend with **native Android app** frontend for real-time city weather search  
+WebSocket bridge connects Kafka consumer to Android client  
+Event-driven architecture: each service communicates only through Kafka topics, never directly  
+Designed with **SOLID principles** throughout  
+*In active development*
+
+---
+
 ### Balloon Blaster — 8086 Assembly Game
-> *Team Project (Duo)*
+> *Team Project*
 
 Built a graphical balloon shooting game in **16-bit 8086 Assembly (NASM)**  
 Implemented **VGA graphics programming** and keyboard input handling  
@@ -61,7 +79,7 @@ Managed collision detection, score tracking, and full game logic
 ---
 
 ### GDP Analysis Engine
-> *Team Project (Duo)*
+> *Team Project*
 
 Python-based GDP analysis system using a **functional programming approach**  
 **Plugin-based architecture** for extending analytical features  
@@ -73,43 +91,11 @@ Applies **SDA concepts** for scalability and maintainability
 ---
 
 ### Movie Ticket Booking System
-> *Team Project (Duo) — In Progress*
+> *Team Project*
 
 Designing a **relational database** for movie seat booking  
 SQL-based queries for seat management, bookings, and transactions  
-
----
-
-## GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdul-4443&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdul-4443&layout=compact&theme=tokyonight&hide_border=true" width="40%"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=abdul-4443&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## Contribution Snake
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/abdul-4443/abdul-4443/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/abdul-4443/abdul-4443/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake"
-      src="https://raw.githubusercontent.com/abdul-4443/abdul-4443/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
----
-
-## Currently Learning
-- Artificial Intelligence & Search Algorithms  
-- Database Systems & Query Optimization  
-- Operating Systems & Concurrency  
-- Software Design & Architecture Patterns  
+[GitHub Repository](https://github.com/ImmutableAF/movie-booking-and-recommendation-system)
 
 ---
 
@@ -128,4 +114,4 @@ SQL-based queries for seat management, bookings, and transactions
 
 ---
 
-<p align="center"><i>"Learn deeply. Build honestly. Improve continuously."</i></p>
+<p align="center"><i>"Learn deeply. Build deliberately."</i></p>
