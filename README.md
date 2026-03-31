@@ -64,7 +64,8 @@ Kotlin backend with **native Android app** frontend for real-time city weather s
 WebSocket bridge connects Kafka consumer to Android client  
 Event-driven architecture: each service communicates only through Kafka topics, never directly  
 Designed with **SOLID principles** throughout  
-*In active development*
+
+[GitHub Repository](https://github.com/Duo-Dynamics/kotlin-weather-pipeline)
 
 ---
 
@@ -93,8 +94,9 @@ Applies **SDA concepts** for scalability and maintainability
 ### Movie Ticket Booking System
 > *Team Project*
 
-Designing a **relational database** for movie seat booking  
-SQL-based queries for seat management, bookings, and transactions  
+Developed a full-stack ticket booking platform with seat management and transaction handling
+Designed relational database schema and optimized queries, improving booking efficiency by ~30% 
+
 [GitHub Repository](https://github.com/ImmutableAF/movie-booking-and-recommendation-system)
 
 ---
