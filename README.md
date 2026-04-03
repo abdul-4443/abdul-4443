@@ -116,4 +116,4 @@ Designed relational database schema and optimized queries, improving booking eff
 
 ---
 
-<p align="center"><i>"Learn deeply. Build deliberately."</i></p>
+<p align="center"><i>"If your path looks easy, your goals might not be set high"</i></p>
